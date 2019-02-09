@@ -1,0 +1,172 @@
+/*+---------------------------------------------------------+
+  | MAIN                                                    |
+  +---------------------------------------------------------+  */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+body {
+  /*font-family: Rubik, sans-serif;*/
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: Rubik, sans-serif;
+
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+}
+
+.spacing {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.title {
+	color: #FFFFFFEE;
+}
+
+p a {
+	color: #426E22;
+	text-decoration: underline;
+}
+
+p a:hover {
+	color: #4E226E;
+}
+
+.jumbotron {
+	background-color: #C5DDB4;
+}
+
+.highlight {
+	background-color: #C5DDB4;
+}
+
+
+.footer-minimal {
+  background-color: #2B2E2E;
+  padding: 20px;
+  padding-top: 10px;
+  color: white;
+}
+
+.footer-minimal img {
+  margin-top: 20px;
+  height: 140px;
+  width: 140px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*+---------------------------------------------------------+
+  | NAV                                                     |
+  +---------------------------------------------------------+  */
+
+.nav-link{
+	color: #FFFFFFDD !important;
+}
+
+.active {
+	color: #E2CC77 !important;
+}
+
+.navbar {
+	padding-top: 40px;
+}
+
+.navbar-nav li a:hover {
+	color: #1F2416 !important;
+	background-color: #E4F4C888;
+	border-radius: 2px;
+}
+
+.submit {
+	background-color: #E2CC77;
+	border: 1px solid #E2CC77;
+	color: black;
+}
+
+.submit:hover {
+	background-color: #3D9100;
+	border: 1px solid #3D9100;
+	color: white;
+}
+
+.email {
+	color: #F5F570;
+}
+
+.email:hover {
+	color: #EDA51E;
+}
+
+/*+---------------------------------------------------------+
+  | PARALLAX                                                |
+  +---------------------------------------------------------+  */
+
+.parallax-row {
+  padding-top: 90px;
+}
+
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+}
+
+.parallax-chef {
+    min-height: 400px;
+    background: transparent;
+}
+
+/*button*/
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 40px; /* Place the button at the bottom of the page */
+  right: 40px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #709556; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.footer-minimal a {
+	color: #C5DDB4;
+}
+
+.footer-minimal a:hover {
+	color: #F5F570;
+
+}
+
+.small-spacing {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
