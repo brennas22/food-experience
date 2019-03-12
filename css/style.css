@@ -46,6 +46,12 @@ p a {
 	text-decoration: underline;
 }
 
+.green {
+	color: #426E22;
+	text-decoration: underline;
+	
+}
+
 p a:hover {
 	color: #4E226E;
 }
