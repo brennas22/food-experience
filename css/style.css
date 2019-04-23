@@ -37,6 +37,11 @@ h4 {
   margin-bottom: 30px;
 }
 
+.large-spacing {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
 .title {
 	color: #FFFFFFEE;
 }
@@ -45,6 +50,8 @@ p a {
 	color: #426E22;
 	text-decoration: underline;
 }
+
+
 
 .green {
 	color: #426E22;
@@ -142,9 +149,16 @@ p a:hover {
 }
 
 .parallax-chef {
-    min-height: 400px;
+    min-height: 350px;
     background: transparent;
 }
+
+.parallax-restaurant {
+    min-height: 350px;
+    background: transparent;
+}
+
+
 
 /*button*/
 
